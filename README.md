@@ -1,4 +1,4 @@
-# TempConvert.github.io
+# TempConvert
 
 Available here! -> https://seanathan10.github.io/TempConvert/
 
