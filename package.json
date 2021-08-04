@@ -1,0 +1,19 @@
+{
+  "name": "tempconvert.github.io",
+  "version": "1.0.0",
+  "description": "A website to convert between Celsius to Fahrenheir and vice versa.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seanathan10/TempConvert.git"
+  },
+  "author": "Sean Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seanathan10/TempConvert/issues"
+  },
+  "homepage": "https://github.com/Seanathan10/TempConvert#readme"
+}

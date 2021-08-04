@@ -2,28 +2,35 @@
 <html>
     <head>
         <script type = "text/javascript" src="functions.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Convert Temperature</title>
         <h3>Convert Temperature from Celsius to Fahrenheit and the other way!</h3>
         <hr>
     </head>
 
     <body>
-<!--
+
+<!-- 
         <img src="Images/thermometer.png" width = "200" height="200"/>
         <p>Very hot!! ^^</p>
 -->
 
-        <div class="class1">
+        <div class="TheMagicClass">
             <label for="input">Input: </label>
-            <input type="text" id="InputValueBox" name="inputvalue"><br><br>
+            <input title = "This is where you should put the input value" type="text" id="InputValueBox" name="inputvalue"><br><br>
             
-            <button onclick = "CelsiusSelected()">°C</button>
-            <button onclick="FahrenheitSelected()">°F</button><br>
+            <button class = "default" title = "Celsius" id = "ButtonC" onclick = "CelsiusSelected()">°C</button>
             
-            <img src="Images/indicator.png" width="50" height="50"/><br>
+            
+            <!-- <img title = "Indicator, used to select the outut temperature" src="Images/indicator.png" alt = "^" width="50" height="50" class="rotate90"/><br> -->
 
+            
+        </div>
+
+        <div class = "TheOtherMagicClass">
+            <button class = "default" title = "Fahrenheit" id = "ButtonF" onclick="FahrenheitSelected()">°F</button><br>
             <label for="output">Output: </label>
-            <input type="text" id="outputvalue" name="OutputValueBox"><br><br>
+            <input title = "This is where the output will be, based on the Indicator" type="text" id="OutputValueBox" name="outputvalue"><br><br>
         </div>
 
         
@@ -31,7 +38,7 @@
 
     <foot>
         <hr>
-        <a href="https://github.com/Seanathan10">My GitHub Page</a><br><br>
-        <a href="Images/rick.gif">MOAR STUFF!</a><br><br>
+        <a title = "This is where all my other projects are!" href="https://github.com/Seanathan10">My GitHub Page</a><br><br>
+        <a title = "hehehe" href="Images/rick.gif">MOAR STUFF!</a><br><br>
     </foot>
 </html>
