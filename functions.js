@@ -50,4 +50,9 @@ function Init() {
   document.getElementById( "OutputValueBox" ).value = "";
 }
 
+function Clear() {
+  document.getElementById( "InputValueBox" ).value = "";
+  document.getElementById( "OutputValueBox" ).value = "";
+}
+
 window.onload = Init;
