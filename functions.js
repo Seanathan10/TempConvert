@@ -53,6 +53,12 @@ function Init() {
 function Clear() {
   document.getElementById( "InputValueBox" ).value = "";
   document.getElementById( "OutputValueBox" ).value = "";
+
+  document.getElementById( "ButtonC" ).style.color = null;
+  document.getElementById( "ButtonC" ).style.backgroundColor = null;
+
+  document.getElementById( "ButtonF" ).style.color = null;
+  document.getElementById( "ButtonF" ).style.backgroundColor = null;
 }
 
 window.onload = Init;
