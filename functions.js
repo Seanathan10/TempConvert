@@ -44,3 +44,10 @@ function ConvertToF() {
 
   document.getElementById( "OutputValueBox" ).value = FinalValue.toFixed( 1 ) + " °F";
 }
+
+function Init() {
+  document.getElementById( "InputValueBox" ).value = "";
+  document.getElementById( "OutputValueBox" ).value = "";
+}
+
+window.onload = Init;
